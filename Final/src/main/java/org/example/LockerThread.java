@@ -16,16 +16,16 @@ public class LockerThread extends Thread{
             synchronized (deliveryService) {
                 while ((order = deliveryService.getNextOrderForLocker(locker)) == null) {
                     try {
-                        deliveryService.wait(); // Ожидаем появления доступного заказа для камеры хранения
+                        deliveryService.wait();
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
                 }
             }
 
-            // Синхронизация на уровне постамата для предотвращения одновременной обработки
+
             synchronized (locker) {
-                deliveryService.receiveOrder(order); // Обработка прибытия и получения заказа в постамате
+                deliveryService.receiveOrder(order);
             }
         }
     }

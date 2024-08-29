@@ -4,17 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb08d7df-edf9-477b-a342-04c7915e23db" name="Changes" comment="Final Test:First version consolApp">
+    <list default="true" id="fb08d7df-edf9-477b-a342-04c7915e23db" name="Changes" comment="Final Test:First version consoleApp">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Final/src/test/java/org/example/DeliveryServiceTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lab1.2/src/main/java/org/example/Line.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lab1.2/src/main/java/org/example/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lab1.2/src/main/java/org/example/RationalFraction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Final/src/main/java/org/example/DeliveryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Final/src/main/java/org/example/DeliveryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Final/src/main/java/org/example/LockerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/Final/src/main/java/org/example/LockerThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Final/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Final/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Final/src/main/java/org/example/PostOfficeThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/Final/src/main/java/org/example/PostOfficeThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab1.1/src/main/java/org/example/IncreasingDigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1.1/src/main/java/org/example/IncreasingDigits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab_2/src/test/java/org/example/AirportTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +44,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -82,6 +80,7 @@
     &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
     &quot;Gradle.AirportTest.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.AirportTest.testPlaneCanReachDestination.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.DeliveryServiceTest.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.IncreasingDigitsTest.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.Ishchenko_Labs:Final [:Final:Main.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.Ishchenko_Labs:FinalTest [:FinalTest:ClientApp.main()].executor&quot;: &quot;Run&quot;,
@@ -113,7 +112,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -268,7 +267,31 @@
       <option name="project" value="LOCAL" />
       <updated>1724940081993</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Final Test:First version consoleApp">
+      <option name="closed" value="true" />
+      <created>1724941442573</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1724941442573</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Final Test:First version consoleApp">
+      <option name="closed" value="true" />
+      <created>1724941448343</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1724941448343</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Final Test:First version consoleApp">
+      <option name="closed" value="true" />
+      <created>1724941456001</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1724941456001</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -279,6 +302,7 @@
     <MESSAGE value="Lab3 First version MovingCircles" />
     <MESSAGE value="Lab4 First version Socket-based client-server" />
     <MESSAGE value="Final Test:First version consolApp" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final Test:First version consolApp" />
+    <MESSAGE value="Final Test:First version consoleApp" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final Test:First version consoleApp" />
   </component>
 </project>
