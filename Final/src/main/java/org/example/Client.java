@@ -22,4 +22,4 @@ public class Client {
     public void receivePackage(Package pkg) {
         System.out.println(name + " получил посылку: " + pkg.getTrackingNumber());
     }
-}
+}//11
