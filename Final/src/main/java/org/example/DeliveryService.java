@@ -50,7 +50,7 @@ public class DeliveryService {
     // Этап отправки посылки с рандомной задержкой
     public void sendOrder(Order order) {
         try {
-            System.out.println("Посылка " + order.getPackage().getTrackingNumber() + " уехала из " + order.getPostOffice().getName() + "...");
+            System.out.println("Посылка " + order.getPackage().getTrackingNumber() + " уехала из " + order.getPostOffice().getName() + " в "  + order.getDestinationLocker().getLocation()+ ".");
             Thread.sleep(ThreadLocalRandom.current().nextInt(5000, 10000)); // Рандомная задержка от 5 до 10 секунд
             order.getPackage().updateStatus("В пути к " + order.getDestinationLocker().getLocation());
             lockerOrders.add(order); // Добавляем в очередь камер хранения
@@ -63,15 +63,18 @@ public class DeliveryService {
     }
 
     // Метод для обработки заказа в постамате — получение и уведомление о завершении
+
     public void receiveOrder(Order order) {
-        try {
-            System.out.println("Посылка " + order.getPackage().getTrackingNumber() + " прибыла в " + order.getDestinationLocker().getLocation() + ".");
-            Thread.sleep(ThreadLocalRandom.current().nextInt(5000, 10000)); // Рандомная задержка от 5 до 10 секунд
-            order.getPackage().updateStatus("Прибыла в " + order.getDestinationLocker().getLocation());
-            System.out.println(order.getReceiver().getName() + " забирает посылку " + order.getPackage().getTrackingNumber() +
-                    " из " + order.getDestinationLocker().getLocation() + " предъявив документ.");
-        } catch (InterruptedException e) {
-            e.printStackTrace();
+        synchronized (order.getDestinationLocker()) { // Синхронизация на уровне конкретного постамата
+            try {
+                System.out.println("Посылка " + order.getPackage().getTrackingNumber() + " прибыла в " + order.getDestinationLocker().getLocation() + ".");
+                Thread.sleep(ThreadLocalRandom.current().nextInt(5000, 10000)); // Рандомная задержка от 5 до 10 секунд
+                order.getPackage().updateStatus("Прибыла в " + order.getDestinationLocker().getLocation());
+                System.out.println(order.getReceiver().getName() + " забирает посылку " + order.getPackage().getTrackingNumber() +
+                        " из " + order.getDestinationLocker().getLocation() + " предъявив документ.");
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
         }
     }
 

@@ -19,7 +19,7 @@ public class Main {
 
         // Создаем посылки
         List<Package> packages = new ArrayList<>();
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 15; i++) {
             packages.add(new Package());
         }
 
