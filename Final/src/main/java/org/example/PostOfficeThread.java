@@ -16,24 +16,24 @@ public class PostOfficeThread extends Thread{
             synchronized (deliveryService) {
                 while ((order = deliveryService.getNextOrderForPostOffice(postOffice)) == null) {
                     try {
-                        deliveryService.wait(); // Ожидание появления доступного заказа
+                        deliveryService.wait();
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
                 }
 
-                // Удаляем заказ из очереди сразу после получения
+
                 deliveryService.removeOrder(order);
             }
 
-            // Обработка заказа вне блока синхронизации
-            System.out.println(postOffice.getName() + " начала обработку заказа номер " + order.getPackage().getTrackingNumber());
-            deliveryService.packOrder(order); // Упаковка посылки
-            deliveryService.sendOrder(order); // Отправка посылки
 
-            // Уведомляем о завершении обработки заказа
+            System.out.println(postOffice.getName() + " начала обработку заказа номер " + order.getPackage().getTrackingNumber());
+            deliveryService.packOrder(order);
+            deliveryService.sendOrder(order);
+
+
             synchronized (deliveryService) {
-                deliveryService.notifyAll(); // Уведомляем, что офис освобожден
+                deliveryService.notifyAll();
             }
         }
     }

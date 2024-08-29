@@ -20,14 +20,14 @@ public class ClientThread extends Thread {
 
     @Override
     public void run() {
-        // Симулируем задержку перед отправкой посылки, чтобы показывать реалистичную работу системы
+
         try {
-            Thread.sleep((long) (Math.random() * 3000)); // Рандомная задержка перед отправкой (до 3 секунд)
+            Thread.sleep((long) (Math.random() * 3000));
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
 
-        // Отправка посылки через клиента
+
         sender.sendPackage(pkg, receiver, postOffice, locker, service);
     }
 }
