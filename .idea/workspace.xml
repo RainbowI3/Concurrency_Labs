@@ -4,12 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb08d7df-edf9-477b-a342-04c7915e23db" name="Changes" comment="Create branch">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab1.1/src/main/java/org/example/IncreasingDigits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab1.1/src/test/java/org/example/IncreasingDigitsTest.java" afterDir="false" />
+    <list default="true" id="fb08d7df-edf9-477b-a342-04c7915e23db" name="Changes" comment="Final Test:First version consolApp">
+      <change afterPath="$PROJECT_DIR$/lab1.2/src/main/java/org/example/Line.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab1.2/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab1.2/src/main/java/org/example/RationalFraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Final/src/main/java/org/example/DeliveryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Final/src/main/java/org/example/DeliveryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Final/src/main/java/org/example/LockerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/Final/src/main/java/org/example/LockerThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Final/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Final/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Final/src/main/java/org/example/PostOfficeThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/Final/src/main/java/org/example/PostOfficeThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1.1/src/main/java/org/example/IncreasingDigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1.1/src/main/java/org/example/IncreasingDigits.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,47 +46,76 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="lab4" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Lab1.3/src/main/java/org/example/Main.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2j9UiCybIpvKUdo2ac5X2985Kj7" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.IncreasingDigitsTest.executor": "Run",
-    "Gradle.Ishchenko_Labs:Lab1.1 [:Lab1.1:IncreasingDigits.main()].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "lab1.1",
-    "jdk.selected.JAVA_MODULE": "21",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Univer/4 семестр/Concurrency/Ishchenko_Labs/Lab1.1/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Gradle.AirportTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.AirportTest.testPlaneCanReachDestination.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.IncreasingDigitsTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Ishchenko_Labs:Final [:Final:Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Ishchenko_Labs:FinalTest [:FinalTest:ClientApp.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Ishchenko_Labs:FinalTest [:FinalTest:CompanyPanel.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Ishchenko_Labs:FinalTest [:FinalTest:Server.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Ishchenko_Labs:Lab1.1 [:Lab1.1:IncreasingDigits.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Ishchenko_Labs:Lab1.2_ver2 [:Lab1.2_ver2:Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Ishchenko_Labs:Lab1.3 [:Lab1.3:LongestCommonChild.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Ishchenko_Labs:Lab_2 [:Lab_2:Airport.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Ishchenko_Labs:Lab_3 [:Lab_3:MovingCirclesFrame.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Ishchenko_Labs:Lab_4 [:Lab_4:Client.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Ishchenko_Labs:Lab_4 [:Lab_4:ClientFrame.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Ishchenko_Labs:Lab_4 [:Lab_4:Server.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Ishchenko_Labs:Lab_4 [:Lab_4:ServerFrame.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Ishchenko_Labs:lab1.2 [:lab1.2:Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LongestCommonChildTest.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;FinalTest&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Univer/4 семестр/Concurrency/Ishchenko_Labs/Lab1.1/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -89,6 +123,62 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="org.example" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="AirportTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":Lab_2:test" />
+            <option value="--tests" />
+            <option value="&quot;org.example.AirportTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="AirportTest.testPlaneCanReachDestination" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":Lab_2:test" />
+            <option value="--tests" />
+            <option value="&quot;org.example.AirportTest.testPlaneCanReachDestination&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.AirportTest" />
+        <item itemvalue="Gradle.AirportTest.testPlaneCanReachDestination" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -122,11 +212,73 @@
       <option name="project" value="LOCAL" />
       <updated>1720799152888</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Lab1.1 First version">
+      <option name="closed" value="true" />
+      <created>1721831485527</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1721831485527</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Lab1.3 First version">
+      <option name="closed" value="true" />
+      <created>1724759079147</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1724759079147</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Lab1.3 First version">
+      <option name="closed" value="true" />
+      <created>1724773586583</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1724773586583</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Lab1.3 First version">
+      <option name="closed" value="true" />
+      <created>1724773597175</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1724773597175</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Lab3 First version MovingCircles">
+      <option name="closed" value="true" />
+      <created>1724795430973</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1724795430973</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Lab4 First version Socket-based client-server">
+      <option name="closed" value="true" />
+      <created>1724885536232</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1724885536232</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Final Test:First version consolApp">
+      <option name="closed" value="true" />
+      <created>1724940081993</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1724940081993</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Create branch" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create branch" />
+    <MESSAGE value="Lab1.1 First version" />
+    <MESSAGE value="Lab1.3 First version" />
+    <MESSAGE value="Lab3 First version MovingCircles" />
+    <MESSAGE value="Lab4 First version Socket-based client-server" />
+    <MESSAGE value="Final Test:First version consolApp" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final Test:First version consolApp" />
   </component>
 </project>
