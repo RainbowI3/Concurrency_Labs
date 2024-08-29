@@ -19,7 +19,7 @@ public class Main {
 
 
         List<Package> packages = new ArrayList<>();
-        for (int i = 0; i < 15; i++) {
+        for (int i = 0; i < 5; i++) {
             packages.add(new Package());
         }
 
