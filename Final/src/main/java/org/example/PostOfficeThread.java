@@ -27,7 +27,7 @@ public class PostOfficeThread extends Thread{
             }
 
             // Обработка заказа вне блока синхронизации
-            System.out.println(postOffice.getName() + " начал обработку заказа для " + order.getPackage().getTrackingNumber());
+            System.out.println(postOffice.getName() + " начала обработку заказа номер " + order.getPackage().getTrackingNumber());
             deliveryService.packOrder(order); // Упаковка посылки
             deliveryService.sendOrder(order); // Отправка посылки
 
